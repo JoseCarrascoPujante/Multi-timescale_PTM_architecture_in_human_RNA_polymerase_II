@@ -438,12 +438,12 @@ If you use this reproducibility package, please cite **both** the manuscript and
 
 **Reproducibility package (this repository, archived on Zenodo)**
 
-> Carrasco-Pujante, J. and Camino-Pontes, B. (2026). *Pol II PTM Information-Capacity — Reproducibility Package* (Version 1.0.0) [Software]. Zenodo. [https://doi.org/10.5281/zenodo.20345702](https://doi.org/10.5281/zenodo.20345702)
+> Jose Carrasco Pujante. (2026). JoseCarrascoPujante/Multi-timescale_PTM_architecture_in_human_RNA_polymerase_II: v.0.1.0 (v.0.1.0). Zenodo. [https://doi.org/10.5281/zenodo.20345702](https://doi.org/10.5281/zenodo.20346233).
 
 BibTeX:
 
 ```bibtex
-@software{jose_carrasco_pujante_2026_20345703,
+@software{jose_carrasco_pujante_2026_20345702,
   author       = {Jose Carrasco Pujante},
   title        = {JoseCarrascoPujante/Multi-timescale_PTM_architectu
                    re_in_human_RNA_polymerase_II: v0.1.0
@@ -452,8 +452,8 @@ BibTeX:
   year         = 2026,
   publisher    = {Zenodo},
   version      = {v0.1.0},
-  doi          = {10.5281/zenodo.20345703},
-  url          = {https://doi.org/10.5281/zenodo.20345703},
+  doi          = {10.5281/zenodo.20345702},
+  url          = {https://doi.org/10.5281/zenodo.20345702},
 }
 ```
 
