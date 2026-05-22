@@ -2,7 +2,7 @@
 
 > **Fully reproducible computation of RNA Polymerase II post-translational modification information capacity, from raw database downloads to every figure, table, and numeric result in the manuscript.**
 
-[![](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![](https://img.shields.io/badge/License-CC--BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)[![](https://zenodo.org/badge/DOI//zenodo..svg)](https://doi.org//zenodo.)
+[![](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![](https://img.shields.io/badge/License-CC--BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![DOI](https://zenodo.org/badge/1246792910.svg)](https://doi.org/10.5281/zenodo.20345702)
 
 ---
 
@@ -24,7 +24,7 @@
 
 ## Overview
 
-This repository contains two Jupyter notebooks: `notebook_1.ipynb` (Supplementary Data File 1) and `notebook_2.ipynb` (Supplementary Data File 2) that together reproduce the datasets used and the numeric values and tables reported in the main text and in Supplementary Information S1 and S3. `notebook_1.ipynb` can additionally generate fresh versions of the two .tsv files provided together with the Jupyter notebooks in this repository: `uniprot_polII_seqs_{CURRENT DATE}.tsv` (Supplementary Data File 3) and `ptms_polII_{CURRENT DATE}.tsv` (Supplementary Data File 4), provided the retrieved upstream (online) databases did not change. The calculation integrates six public PTM databases plus literature-mined entries to build a comprehensive atlas of human RNA Polymerase II post-translational modifications, then applies information-theoretic methods to quantify the regulatory capacity encoded by those modifications.
+This repository contains two Jupyter notebooks: `notebook_1.ipynb` (Supplementary Data File 1) and `notebook_2.ipynb` (Supplementary Data File 2) that together reproduce the datasets used and the numeric values and tables reported in the main text and in Supplementary Information S1 and S3. `notebook_1.ipynb` can additionally generate fresh versions of the two .tsv files provided together with the Jupyter notebooks in this repository: `uniprot_polII_seqs_2026_05_22.tsv` (Supplementary Data File 3) and ``ptms_polII_`2026_05_22`.tsv`` (Supplementary Data File 4), provided the retrieved upstream (online) databases did not change. The calculation integrates six public PTM databases plus literature-mined entries to build a comprehensive atlas of human RNA Polymerase II post-translational modifications, then applies information-theoretic methods to quantify the regulatory capacity encoded by those modifications.
 
 <table>
 <thead>
@@ -438,19 +438,22 @@ If you use this reproducibility package, please cite **both** the manuscript and
 
 **Reproducibility package (this repository, archived on Zenodo)**
 
-> Carrasco-Pujante, J. and Camino-Pontes, B. (2026). *Pol II PTM Information-Capacity — Reproducibility Package* (Version 1.0.0) [Software]. Zenodo. [https://doi.org/](https://doi.org/)
+> Carrasco-Pujante, J. and Camino-Pontes, B. (2026). *Pol II PTM Information-Capacity — Reproducibility Package* (Version 1.0.0) [Software]. Zenodo. [https://doi.org/10.5281/zenodo.20345702](https://doi.org/10.5281/zenodo.20345702)
 
 BibTeX:
 
 ```bibtex
-@software{carrasco_pujante_polII_ptm_2026,
-  author       = {Carrasco-Pujante, Jose and Camino-Pontes, Borja},
-  title        = {Pol II PTM Information-Capacity --- Reproducibility Package},
+@software{jose_carrasco_pujante_2026_20345703,
+  author       = {Jose Carrasco Pujante},
+  title        = {JoseCarrascoPujante/Multi-timescale_PTM_architectu
+                   re_in_human_RNA_polymerase_II: v0.1.0
+                  },
+  month        = may,
   year         = 2026,
   publisher    = {Zenodo},
-  version      = {1.0.0},
-  doi          = {},
-  url          = {https://doi.org/}
+  version      = {v0.1.0},
+  doi          = {10.5281/zenodo.20345703},
+  url          = {https://doi.org/10.5281/zenodo.20345703},
 }
 ```
 
@@ -458,6 +461,6 @@ BibTeX:
 
 ## License
 
-[![](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![](https://img.shields.io/badge/License-CC--BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![](https://img.shields.io/badge/License-CC--BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 See the LICENSE file for terms of use.
