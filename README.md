@@ -1,6 +1,6 @@
 # Pol II PTM Information-Capacity — Reproducibility Package
 
-> **Fully reproducible computation of RNA Polymerase II post-translational modification information capacity, from raw database downloads to every figure, table, and numeric result in the manuscript.**
+> **Fully reproducible computation of RNA Polymerase II post-translational modification information capacity, from raw database downloads to every figure, table, and numeric result in the manuscript "Multi-Timescale PTM Architecture in Human RNA Polymerase II".**
 
 [![](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![](https://img.shields.io/badge/License-CC--BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![DOI](https://zenodo.org/badge/1246792910.svg)](https://doi.org/10.5281/zenodo.20345702)
 
@@ -438,23 +438,22 @@ If you use this reproducibility package, please cite **both** the manuscript and
 
 **Reproducibility package (this repository, archived on Zenodo)**
 
-> Jose Carrasco Pujante. (2026). JoseCarrascoPujante/Multi-timescale_PTM_architecture_in_human_RNA_polymerase_II: v.0.1.0 (v.0.1.0). Zenodo. [https://doi.org/10.5281/zenodo.20345702](https://doi.org/10.5281/zenodo.20346233).
+> Jose Carrasco Pujante. (2026). JoseCarrascoPujante/Multi-timescale_PTM_architecture_in_human_RNA_polymerase_II: v.0.1.0-pre (v.0.1.0-pre). Zenodo. [https://doi.org/10.5281/zenodo.20345702](https://doi.org/10.5281/zenodo.20345702).
 
 BibTeX:
 
 ```bibtex
-@software{jose_carrasco_pujante_2026_20345702,
-  author       = {Jose Carrasco Pujante},
-  title        = {JoseCarrascoPujante/Multi-timescale_PTM_architectu
-                   re_in_human_RNA_polymerase_II: v0.1.0
+@software{carrasco_pujante_2026_20345702,
+  author       = {Carrasco-Pujante, Jose},
+  title        = {JoseCarrascoPujante/Multi-timescale\_PTM\_architectu
+                   re\_in\_human\_RNA\_polymerase\_II: v.0.1.0-pre
                   },
   month        = may,
   year         = 2026,
   publisher    = {Zenodo},
-  version      = {v0.1.0},
+  version      = {v.0.1.0-pre},
   doi          = {10.5281/zenodo.20345702},
   url          = {https://doi.org/10.5281/zenodo.20345702},
-}
 ```
 
 ---
