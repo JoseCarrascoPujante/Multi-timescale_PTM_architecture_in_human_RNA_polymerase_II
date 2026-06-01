@@ -1,5 +1,6 @@
-# Pol II PTM Information-Capacity — Reproducibility Package
+# RNA Polymerase II PTM Information Capacity — Reproducibility Package
 
+> [!IMPORTANT]
 > **Fully reproducible computation of RNA Polymerase II post-translational modification information capacity, from raw database downloads to every figure, table, and numeric result in the manuscript "Multi-Timescale PTM Architecture in Human RNA Polymerase II".**
 
 [![](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![](https://img.shields.io/badge/License-CC--BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![DOI](https://zenodo.org/badge/1246792910.svg)](https://doi.org/10.5281/zenodo.20345702)
@@ -69,7 +70,8 @@ When both files are present, every network download in Notebook 1 is automatical
 
 Simply run Notebook 1 without the cached files. Each module will query its respective upstream database, the frozen Pol II subunit protein sequences will be written to `uniprot_polII_seqs_{CURRENT DATE}.tsv` and the frozen PTM atlas will be written to `ptms_polII_{CURRENT DATE}.tsv` for future offline runs.
 
-> NOTE: The audit assertions in Notebook 2 are pinned to the bundled snapshots and **will fail** if run against a freshly regenerated atlas (upstream databases may have been updated).
+> [!NOTE]
+> The audit assertions in Notebook 2 are pinned to the bundled snapshots and **will fail** if run against a freshly regenerated atlas (upstream databases may have been updated).
 
 ---
 
@@ -93,7 +95,7 @@ pip install pandas requests beautifulsoup4 ipython
 ├── notebook_2.ipynb                      # Supplementary Data File 2 — Notebook 2: information-capacity calculations
 ├── uniprot_polII_seqs_2026_05_22.tsv     # Supplementary Data File 3 — pinned protein sequences
 ├── ptms_polII_2026_05_22.tsv             # Supplementary Data File 4 — frozen PTM atlas
-├── README.md                             # Reproducibility instructions
+└── README.md                             # Reproducibility instructions
 ```
 
 ---
@@ -228,7 +230,8 @@ Harmonizes all source nomenclature to a controlled PTM vocabulary, removes non-r
 
 ### Environment check and analysis setup (required)
 
-> [!WARNING] **Running this cell before all Reproducibility Modules in Notebook 2 is REQUIRED**, since it generates essential assets for downstream analysis.
+> [!WARNING]
+> **Running this cell before all Reproducibility Modules in Notebook 2 is REQUIRED**, since it generates essential assets for downstream analysis.
 
 This cell verifies dependencies for the results notebook, then loads the cached sequence and PTM files, reconstructs the CTD heptad map, and partitions `all_databases_merge` into three separate dataframes ('df') used by all downstream modules:
 
