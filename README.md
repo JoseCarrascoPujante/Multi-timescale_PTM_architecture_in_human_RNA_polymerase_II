@@ -1,25 +1,25 @@
-# RNA Polymerase II PTM Information Capacity — Reproducibility Package
+# Human RNA Polymerase II PTM Information Capacity — Reproducibility Package
 
 > [!IMPORTANT]
-> **Fully reproducible computation of RNA Polymerase II post-translational modification information capacity, from raw database downloads to every figure, table, and numeric result in the manuscript "Multi-Timescale PTM Architecture in Human RNA Polymerase II".**
+> **Fully reproducible computation of human RNA Polymerase II post-translational modification information capacity, from raw database downloads to every figure, table, and numeric result in the manuscript "Multi-Timescale PTM Architecture in Human RNA Polymerase II".**
 
-[![](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![](https://img.shields.io/badge/License-CC--BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![DOI](https://zenodo.org/badge/1246792910.svg)](https://doi.org/10.5281/zenodo.20345702)
+[![](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![](https://img.shields.io/badge/License-CC--BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20345702.svg)](https://doi.org/10.5281/zenodo.20345702)
 
 ---
 
 ### Table of contents
 
-- [Overview](#overview)
-- [Quick Start](#quick-start)
-- [Requirements](#requirements)
-- [Repository Structure](#repository-structure)
-- [Notebook 1 — PTM and Protein Sequence Data Retrieval](#notebook-1--ptm-and-protein-sequence-data-retrieval)
-- [Notebook 2 — Information-Theoretic Calculations](#notebook-2--information-theoretic-calculations)
-- [Data Sources](#data-sources)
-- [Key Results](#key-results)
-- [Authors](#authors)
-- [Citation](#citation)
-- [License](#license)
+- Overview
+- Quick Start
+- Requirements
+- Repository Structure
+- Notebook 1 — PTM and Protein Sequence Data Retrieval
+- Notebook 2 — Information-Theoretic Calculations
+- Data Sources
+- Key Results
+- Authors
+- Citation
+- License
 
 ---
 
@@ -437,27 +437,11 @@ If you use this reproducibility package, please cite **both** the manuscript and
 
 **Manuscript**
 
-> De la Fuente, I.M., Carrasco-Pujante, J., Camino-Pontes, B., Fedetz, M., Legarreta, L.,  Malaina, I., Pérez-Yarza, G., Martínez, L., Cortés, J.M., and López, J.I. *Multi-timescale PTM architecture in human RNA polymerase II*
+> De la Fuente, I.M., Carrasco-Pujante, J., Camino-Pontes, B., Fedetz, M., Legarreta, L.,  Malaina, I., Pérez-Yarza, G., Martínez, L., Cortés, J.M., and López, J.I. *Multi-timescale PTM architecture in human RNA polymerase II* (submitted)
 
 **Reproducibility package (this repository, archived on Zenodo)**
 
-> Jose Carrasco Pujante. (2026). JoseCarrascoPujante/Multi-timescale_PTM_architecture_in_human_RNA_polymerase_II: v.0.1.0-pre (v.0.1.0-pre). Zenodo. [https://doi.org/10.5281/zenodo.20345702](https://doi.org/10.5281/zenodo.20345702).
-
-BibTeX:
-
-```bibtex
-@software{carrasco_pujante_2026_20345702,
-  author       = {Carrasco-Pujante, Jose},
-  title        = {JoseCarrascoPujante/Multi-timescale\_PTM\_architectu
-                   re\_in\_human\_RNA\_polymerase\_II: v.0.1.0-pre
-                  },
-  month        = may,
-  year         = 2026,
-  publisher    = {Zenodo},
-  version      = {v.0.1.0-pre},
-  doi          = {10.5281/zenodo.20345702},
-  url          = {https://doi.org/10.5281/zenodo.20345702},
-```
+> Carrasco-Pujante, J., & Camino-Pontes, B. (2026). JoseCarrascoPujante/Multi-timescale_PTM_architecture_in_human_RNA_polymerase_II: latest version. Zenodo. https://doi.org/10.5281/zenodo.20345702
 
 ---
 

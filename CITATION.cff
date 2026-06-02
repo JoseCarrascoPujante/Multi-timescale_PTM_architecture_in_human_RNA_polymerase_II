@@ -1,0 +1,62 @@
+cff-version: 1.2.0
+message: >-
+  If you use this reproducibility package, please cite both the archived
+  software/data package and the associated manuscript.
+title: >-
+  Reproducibility package for "Multi-Timescale PTM Architecture in Human
+  RNA Polymerase II"
+abstract: >-
+  Fully reproducible computation of human RNA Polymerase II post-translational
+  modification (PTM) information capacity, from raw database downloads to
+  every figure, table, and numeric result in the manuscript "Multi-Timescale
+  PTM Architecture in Human RNA Polymerase II". The package integrates six
+  public PTM databases plus literature-mined entries into a comprehensive
+  atlas of human RNA Polymerase II PTMs, then applies information-theoretic
+  methods to quantify the information capacity those modifications encode.
+type: software
+authors:
+  - family-names: Carrasco-Pujante
+    given-names: Jose
+    orcid: https://orcid.org/0000-0001-6490-738X
+  - family-names: Camino-Pontes
+    given-names: Borja
+    orcid: https://orcid.org/0000-0002-9071-9304
+version: v0.1.0-pre
+date-released: '2026-06-02'
+doi: 10.5281/zenodo.20345702
+url: https://doi.org/10.5281/zenodo.20345702
+repository-code: >-
+  https://github.com/JoseCarrascoPujante/Multi-timescale_PTM_architecture_in_human_RNA_polymerase_II
+license: MIT
+keywords:
+  - RNA polymerase II
+  - CTD code
+  - post-translational modifications
+  - information capacity
+  - kinetic layers
+  - Shannon entropy
+preferred-citation:
+  type: article
+  title: Multi-Timescale PTM Architecture in Human RNA Polymerase II
+  status: submitted
+  authors:
+    - family-names: De la Fuente
+      given-names: Ildefonso M.
+    - family-names: Carrasco-Pujante
+      given-names: José
+    - family-names: Camino-Pontes
+      given-names: Borja
+    - family-names: Fedetz
+      given-names: Maria
+    - family-names: Legarreta
+      given-names: Leire
+    - family-names: Malaina
+      given-names: Iker
+    - family-names: Pérez-Yarza
+      given-names: Gorka
+    - family-names: Martínez
+      given-names: Luis
+    - family-names: Cortés
+      given-names: Jesús M.
+    - family-names: López
+      given-names: Jose Ignacio
