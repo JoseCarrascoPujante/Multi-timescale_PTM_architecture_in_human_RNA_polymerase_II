@@ -426,7 +426,7 @@ Re-applies `_I` under four alternative state models and generates Supplementary 
 
 ## Authors
 
-- **Jose Carrasco-Pujante** – [GitHub](https://github.com/JoseCarrascoPujante) | [ORCID](https://orcid.org/0000-0001-6490-738X)
+- **Jose Carrasco-Pujante** – [GitHub](https://github.com/JoseCarrascoPujante) | [ORCID](https://orcid.org/0000-0001-6490-738X)<br>*Principal developer.*
 - **Borja Camino-Pontes** – [GitHub](https://github.com/Dopert) | [ORCID](https://orcid.org/0000-0002-9071-9304)
 
 ---
