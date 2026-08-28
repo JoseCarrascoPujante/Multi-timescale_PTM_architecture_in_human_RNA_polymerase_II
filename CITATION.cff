@@ -3,16 +3,22 @@ message: >-
   If you use this reproducibility package, please cite both the archived
   software/data package and the associated manuscript.
 title: >-
-  Reproducibility package for "Multi-Timescale PTM Architecture in Human
-  RNA Polymerase II"
+  Reproducibility package for "Multi-timescale PTM architecture in human
+  RNA polymerase II"
 abstract: >-
-  Fully reproducible computation of human RNA Polymerase II post-translational
-  modification (PTM) information capacity, from raw database downloads to
-  every figure, table, and numeric result in the manuscript "Multi-Timescale
-  PTM Architecture in Human RNA Polymerase II". The package integrates six
-  public PTM databases plus literature-mined entries into a comprehensive
-  atlas of human RNA Polymerase II PTMs, then applies information-theoretic
-  methods to quantify the information capacity those modifications encode.
+  Human RNA polymerase II (Pol II) carries an extensive landscape of post-translational
+  modifications (PTMs) and conformational states that collectively coordinate transcription
+  and co-transcriptional RNA processing. Here, we compile residue-level annotations across
+  the twelve human Pol II subunits and formulate an explicit discrete-state framework for
+  the C-terminal domain, the non-CTD region of Rpb1, and subunits Rpb2–Rpb12. Under an
+  independent-site construction, the curated residue-state landscape has a maximum logarithmic
+  state-space size of 707.98 bits per Pol II molecule, including 211.22 bits contributed by the CTD.
+  Experimental human CTD mass-spectrometry data support the five canonical phosphoacceptor-position
+  classes represented in the framework and show qualitative agreement between the predominant
+  Ser5-P and Ser2-P classes and the largest modeled position-class contributions. Empirical
+  kinetic observations further support a multi-timescale architecture spanning seconds to hours.
+  The quantitative framework distinguishes model-defined state-space size from physiological entropy
+  and provides a reproducible approach to PTM-rich regulatory systems.
 type: software
 authors:
   - family-names: Carrasco-Pujante
@@ -21,10 +27,15 @@ authors:
   - family-names: Camino-Pontes
     given-names: Borja
     orcid: https://orcid.org/0000-0002-9071-9304
-version: v0.1.0-pre
-date-released: '2026-06-02'
-doi: 10.5281/zenodo.20345702
-url: https://doi.org/10.5281/zenodo.20345702
+version: v1.0.0
+date-released: '2026-08-28'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20345702
+    description: >-
+      Concept DOI resolving to the latest release of this reproducibility
+      package. Cite the version DOI above to reference the exact code and data
+      snapshot reproducing a specific manuscript version.
 repository-code: >-
   https://github.com/JoseCarrascoPujante/Multi-timescale_PTM_architecture_in_human_RNA_polymerase_II
 license: MIT
@@ -32,13 +43,18 @@ keywords:
   - RNA polymerase II
   - CTD code
   - post-translational modifications
-  - information capacity
+  - state-space capacity
+  - Shannon information
+  - mass spectrometry
   - kinetic layers
-  - Shannon entropy
+  - biochemical regulation
 preferred-citation:
   type: article
-  title: Multi-Timescale PTM Architecture in Human RNA Polymerase II
-  status: submitted
+  status: preprint
+  journal: bioRxiv
+  title: Multi-timescale PTM architecture in human RNA polymerase II
+  year: 2026
+  doi: 10.64898/2026.06.27.734958
   authors:
     - family-names: De la Fuente
       given-names: Ildefonso M.
