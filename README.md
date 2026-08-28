@@ -11,7 +11,7 @@
 | Manuscript version | Git tag | Zenodo version DOI | TSV files' date stamp |
 |---|---|---|---|
 | bioRxiv v1 | [v0.1.0-pre](https://github.com/JoseCarrascoPujante/Multi-timescale_PTM_architecture_in_human_RNA_polymerase_II/tree/v0.1.0-pre) | [10.5281/zenodo.20635050](https://doi.org/10.5281/zenodo.20635050) | 2026_05_22|
-| current | v1.0.0 | minted at release — see note below | 2026_08_26 |
+| current | [v1.0.0](https://github.com/JoseCarrascoPujante/Multi-timescale_PTM_architecture_in_human_RNA_polymerase_II/tree/v0.1.0-pre) | [10.5281/zenodo.22139933](https://doi.org/10.5281/zenodo.22139933) | 2026_08_26 |
 
 > A release's own version DOI does not exist until Zenodo publishes it, so the copy of this table archived inside such Zenodo release cannot contain it. If the cell above still reads "minted at release", you are reading the archived copy: the release's DOI is recorded on the `main` branch and on the [Zenodo record](https://doi.org/10.5281/zenodo.20345702), which always resolves to the newest release.
 
@@ -371,7 +371,7 @@ Uses the seven `src_*` provenance columns of the frozen atlas to test how the es
 <td>Logarithmic state-space calculations and all manuscript outputs</td>
 <td>~1 s</td>
 </tr>
-</tbody></table>000
+</tbody></table>0000
 
 *1 MB = 10^6 bytes
 
@@ -390,7 +390,7 @@ Uses the seven `src_*` provenance columns of the frozen atlas to test how the es
 
 Cite the version you used:
 
-> Carrasco-Pujante, J., & Camino-Pontes, B. (2026). *Reproducibility package for "Multi-Timescale PTM Architecture in Human RNA Polymerase II"* (v1.0.0) [Software]. Zenodo. [https://doi.org/10.5281/zenodo](https://doi.org/10.5281/zenodo.XXXXXXXX).[20345702](https://doi.org/10.5281/zenodo.20345702).
+> Carrasco-Pujante, J., & Camino-Pontes, B. (2026). *Reproducibility package for "Multi-timescale PTM architecture in human RNA polymerase II"* (v1.0.0) [Software]. Zenodo. [https://doi.org/10.5281/zenodo.22139933](https://doi.org/10.5281/zenodo.22139933)
 
 To cite the package as an evolving artifact across all versions, use the concept DOI [https://doi.org/10.5281/zenodo.20345702](https://doi.org/10.5281/zenodo.20345702), which always resolves to the latest release.
 
