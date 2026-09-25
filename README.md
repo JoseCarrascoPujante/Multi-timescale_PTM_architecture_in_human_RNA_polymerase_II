@@ -32,7 +32,6 @@
 - Notebook 1 — PTM and Protein Sequence Data Retrieval
 - Notebook 2 — Logarithmic State-Space Calculations
 - Data Sources
-- Key Results
 - Authors
 - Citation
 - License
@@ -345,35 +344,6 @@ Uses the seven `src_*` provenance columns of the frozen atlas to test how the es
 <table>
 <thead><tr><th>Database</th><th>URL</th></tr></thead>
 <tbody><tr><td>UniProt UniSave</td><td><a href="https://www.ebi.ac.uk/uniprot/unisave/app/#/">https://www.ebi.ac.uk/uniprot/unisave/app/#/</a></td></tr><tr><td>UniProtKB REST</td><td><a href="https://www.uniprot.org/uniprotkb/">https://www.uniprot.org/uniprotkb/</a></td></tr><tr><td>EBI Proteins API</td><td><a href="https://www.ebi.ac.uk/proteins/api/">https://www.ebi.ac.uk/proteins/api/</a></td></tr><tr><td>dbPTM</td><td><a href="https://biomics.lab.nycu.edu.tw/dbPTM/">https://biomics.lab.nycu.edu.tw/dbPTM/</a></td></tr><tr><td>iPTMnet</td><td><a href="https://research.bioinformatics.udel.edu/iptmnet/">https://research.bioinformatics.udel.edu/iptmnet/</a></td></tr><tr><td>PhosphoSitePlus</td><td><a href="https://www.phosphosite.org/">https://www.phosphosite.org/</a></td></tr><tr><td>GlyGen</td><td><a href="https://api.glygen.org/">https://glygen.org/</a></td></tr><tr><td>BioNumbers ID 112321; Zhao et al., 2014</td><td><a href="https://bionumbers.hms.harvard.edu/bionumber.aspx?s=n&v=0&id=112321">https://bionumbers.hms.harvard.edu/bionumber.aspx?s=n&v=0&id=112321</a></td></tr></tbody></table>
-
----
-
-## Key Results
-
-<table>
-<thead>
-<tr>
-<th>Notebook</th>
-<th>Modules</th>
-<th>Purpose</th>
-<th>Expected runtime</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>notebook_1.ipynb</td>
-<td>1 – 10</td>
-<td>PTM atlas construction from public databases</td>
-<td>~8 min</td>
-</tr>
-<tr>
-<td>notebook_2.ipynb</td>
-<td>11 – 20</td>
-<td>Logarithmic state-space calculations and all manuscript outputs</td>
-<td>~1 s</td>
-</tr>
-</tbody></table>
-
----
 
 ## Authors
 
